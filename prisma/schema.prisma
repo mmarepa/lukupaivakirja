@@ -1,0 +1,24 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model kayttaja {
+  id             Int    @id @default(autoincrement())
+  kayttajatunnus String @db.Text
+  salasana       String @db.Text
+}
+
+model kirja {
+  id                  Int    @id @default(autoincrement())
+  kirjanNimi          String @db.Text
+  kirjailijanEtunimi  String @db.Text
+  kirjailijanSukunimi String @db.Text
+  arvostelu           Int
+  sanallinenArvostelu String @db.Text
+  kayttajaId          Int
+}
