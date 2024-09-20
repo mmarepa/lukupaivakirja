@@ -1,6 +1,6 @@
 # Lukupäiväkirja
 
-Sovellusohjelmointikurssin päättötyö - Node-, Express-, Prisma-, ja React-tekniikoilla toteutettu lukupäiväkirja web-sovelluksena.
+Sovellusohjelmointikurssin päättötyö: Node-, Express-, Prisma-, ja React-tekniikoilla toteutettu lukupäiväkirja web-sovelluksena.
 
 - Sovellukseen voi kirjautua testitunnuksilla
 - Käyttäjä voi lisätä lukemiaan kirjoja lukupäiväkirjaan
