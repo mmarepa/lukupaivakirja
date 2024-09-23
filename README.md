@@ -10,11 +10,11 @@ Properties:
 - Searching books by title or author
 
 Prerequisites:
-Install Node
-Install MySQL
-Install phpMyAdmin
-Install Xampp
-(Use Xampp to start MySQL database)
+- Install Node
+- Install MySQL
+- Install phpMyAdmin
+- Install Xampp
+- (Use Xampp to start MySQL database)
 
 Using your terminal:
 1. Clone the repository to your machine
