@@ -19,14 +19,15 @@ Prerequisites:
 Using your terminal:
 1. Clone the repository to your machine
 2. Go to where you cloned the repository
-3. Run phpMyAdmin and import lukupaivakirja.sql to setup your database.
-4. Setup your appUser into user table in the database. 
+3. Run phpMyAdmin and import lukupaivakirja.sql to setup your database
+4. Setup your appUser into user table in the database
 5. For this you need to generate password hash for your user:
-6. Run node luoSalasana.js yourpassword
-7. Copy the password hash to the phpMyAdmin user tables field pass
-8. Copy the env.sample to .env and edit the fields to suit your install settings 
-9. Then you need the apikey for signing and checking the token that is used in communication between backend and frontend.
-10. Run node luoAvain.js and copy the string from command line and add it into your .env file 
-11. run npm install
-12. run npm start
+   5.1 Change the password 'yourpassword' in the file luoSalasana.js to the password you want to use
+   5.2 Run node luoSalasana.js
+6. Copy the password hash to the phpMyAdmin user tables field pass
+7. Copy the env.sample to .env and edit the fields to suit your install settings 
+8. Then you need the apikey for signing and checking the token that is used in communication between backend and frontend.
+9. Run node luoAvain.js and copy the string from command line and add it into your .env file 
+10. run npm install
+11. run npm start
 
