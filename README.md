@@ -1,4 +1,4 @@
-# Lukupäiväkirja (Reading Diary)
+# Lukupäiväkirja (Reading Journal)
 
 Web application made with React, Node, Express and Prisma as a practical work for my university.
 
